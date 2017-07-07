@@ -62,7 +62,7 @@ objects:
     - imageChangeParams:
         automatic: true
         containerNames:
-        - nodejs
+        - nginx
         from:
           kind: ImageStreamTag
           name: ${SITEGROUP}:${TAG}
