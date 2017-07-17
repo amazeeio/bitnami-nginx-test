@@ -1,0 +1,7 @@
+services:
+  nginx:
+    amazeeio:
+      type: custom
+      template: .amazeeio.nginx.yml
+    build:
+      dockerfile: Dockerfile
